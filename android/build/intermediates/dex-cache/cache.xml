@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-1ce6d55a0f427ce1fded8e9553df31ae1726d149.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-e7238eac657fa30194665f33eb60b6ccc1f49caa.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-a0b4005e5a346b027abe45c7f2114a0eb1204e46.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-01c2630b290441049facd39b98dfb55f96edb3c9.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-d987605e38d97eeeab8cdb977213a94a5666e99e.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-293e1f41908b9c38fed2f8def2339a9dbf380261.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-f586f38669a8a0bea3651b273e4ba04a66e2ea28.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-778c75c5d1e285a73def2504d4ce26be599beae4.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-e5a0c6adc7dd69d11b00dc5b8079b9a003ee46a8.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.4.0/69206d28966656052a982ceded583abdeb41cf63/okhttp-ws-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-60aac6004baf582e4227d6b45659d76e1ffcab91.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.11.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-09c7a5e62ea0afc8f4fb8b91cb55eb8cda275a0e.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-9e048cd6cf5349f6ae6c45849c62e467feb3f227.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-e5d2f1fb9b874c94ad84b95cd68172d42ca9462f.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-4f343f0345feb8db756d1d4ab841cc8ebc96c76c.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="99c854e791067a69667c57c7ef1b596810c94ab2">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-7b27386c1ec1fc58378ae3065251fd02f97aded4.jar" />
+    </item>
+    <item
+        jar="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/classes-f1def523b5cf15858aac1717e0b0869f69128170.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-a21a4d7b2cc3368f5b1087d53598e249bd5ff80c.jar" />
+    </item>
+    <item
+        jar="/Users/duana/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/duana/projects/sounddrop-react/SoundDrop/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-6fa123c2f9e6f9afeef113472f6470f981b56c13.jar" />
+    </item>
+
+</items>
