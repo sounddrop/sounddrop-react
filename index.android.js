@@ -8,6 +8,7 @@ var React = require('react-native');
 var {
   AppRegistry,
   StyleSheet,
+  Image,
   Text,
   View,
 } = React;
@@ -16,6 +17,7 @@ var SoundDrop = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
+        <Image source={require('image!sounddrop_logo')} />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
