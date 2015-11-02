@@ -10,23 +10,38 @@ var {
   StyleSheet,
   Image,
   Text,
+  TouchableHighlight,
   View,
 } = React;
+
+var UIExplorerButton = React.createClass({
+  propTypes: {
+    onPress: React.PropTypes.func,
+  },
+  render: function() {
+    return (
+      <TouchableHighlight
+        onPress={this.props.onPress}
+        style={styles.button}
+        underlayColor="grey">
+        <Text>
+          Hi
+        </Text>
+      </TouchableHighlight>
+    );
+  },
+});
 
 var SoundDrop = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
-        <Image source={require('image!sounddrop_logo')} />
+        <Image source={require('image!sounddrop_logo_name')} style={styles.logo}/>
+        <Image source={require('image!sounddrop_logo')} style={styles.icon}/>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to SoundDrop!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
+        <UIExplorerButton/>
       </View>
     );
   }
@@ -37,7 +52,11 @@ var styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#1A0923',
+  },
+  icon: {
+    marginTop: 50, 
+    marginBottom: 60,
   },
   welcome: {
     fontSize: 20,
@@ -49,6 +68,16 @@ var styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  button: {
+    borderColor: '#696969',
+    borderRadius: 8,
+    borderWidth: 1,
+    padding: 10,
+    margin: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#d3d3d3',
+  }
 });
 
 AppRegistry.registerComponent('SoundDrop', () => SoundDrop);

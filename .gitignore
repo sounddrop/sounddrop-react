@@ -1,3 +1,4 @@
 node_modules
 android/app/build/
 .gradle
+android/build/
