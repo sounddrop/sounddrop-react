@@ -1,4 +1,5 @@
-node_modules
 android/app/build/
 .gradle
 android/build/
+ios/SoundDrop.xcodeproj/project.xcworkspace/
+ios/SoundDrop.xcodeproj/xcuserdata/

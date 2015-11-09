@@ -17,7 +17,8 @@ var SoundDrop = React.createClass({
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Hello there!
+
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
