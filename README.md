@@ -1,7 +1,7 @@
 # sounddrop-react
 React Native Mobile Apps for SoundDrop
 
-1. Install [React Native](http://facebook.github.io/react-native/docs/getting-started.html)
+1. Install [React Native](http://facebook.github.io/react-native/docs/getting-started.html), and follow the instructions for the Android and iOS setup.
 2. Run the following command in the project directory
 
         npm install
