@@ -2,12 +2,13 @@ var React = require('react-native');
 
 var {
   View,
+  Image,
   Text,
   StyleSheet
 } = React;
 
 var styles = StyleSheet.create({
-  foo: {
+  container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -16,6 +17,7 @@ var styles = StyleSheet.create({
   welcome: {
     fontSize: 20,
     textAlign: 'center',
+    color: 'white',
     margin: 10,
   },
   instructions: {
@@ -28,16 +30,11 @@ var styles = StyleSheet.create({
 class Main extends React.Component {
   render() {
     return (
-      <View style={styles.foo}>
+    <View style={styles.container}>
+        <Image source={require('SoundDrop/app/images/sounddrop_logo_name.png')} style={styles.logo}/>
+        <Image source={require('SoundDrop/app/images/sounddrop_logo.png')} style={styles.icon}/>
         <Text style={styles.welcome}>
-          Hello there!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          Welcome to SoundDrop!
         </Text>
       </View>
     );

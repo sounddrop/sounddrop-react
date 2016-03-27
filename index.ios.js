@@ -1,5 +1,5 @@
 var React = require('react-native');
-var Main = require('./app/components/main');
+var Main = require('SoundDrop/app/components/main');
 
 window.React = React;
 
