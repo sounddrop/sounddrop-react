@@ -8,6 +8,7 @@ React Native Mobile Apps for SoundDrop
 
 For Android:
 
+1. Install Android Studio and SDK as [detailed here](https://facebook.github.io/react-native/docs/getting-started.html)
 1. Install [Genymotion](https://www.genymotion.com) and start a device
 1. Run:
 
