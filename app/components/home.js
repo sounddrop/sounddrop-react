@@ -1,5 +1,4 @@
 var React = require('react-native');
-
 var {
   View,
   Image,
@@ -34,27 +33,17 @@ var styles = StyleSheet.create({
 });
 
 
-class Main extends React.Component {
-  constructor(){
-    super();
-    this.navigate = this.navigate.bind(this);
-  }
-  navigate(name){
-    this.props.navigator.push({
-      id:name
-    });
-  }
+class Home extends React.Component {
   render() {
     return (
     <View style={styles.container}>
-      <Image source={require('SoundDrop/app/images/sounddrop_logo_name.png')} style={styles.logo}/>
-      <Image source={require('SoundDrop/app/images/sounddrop_logo.png')} style={styles.icon}/>
       <Text style={styles.welcome}>
-        Welcome to SoundDrop!
+        Home Page
       </Text>
-      <TouchableHighlight style={styles.button} underlayColor="grey" onPress={()=>this.navigate('home')}>
+
+      <TouchableHighlight style={styles.button} underlayColor="grey" onPress={()=>this.props.navigator.pop()}>
         <Text>
-          View Drops
+          Back
         </Text>
       </TouchableHighlight>
     </View>
@@ -62,4 +51,4 @@ class Main extends React.Component {
   }
 };
 
-module.exports = Main;
+module.exports = Home;

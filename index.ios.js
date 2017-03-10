@@ -1,24 +1,30 @@
 var React = require('react-native');
 var Main = require('SoundDrop/app/components/main');
+var Home = require('SoundDrop/app/components/home');
 
 window.React = React;
 
 var {
   AppRegistry,
   StyleSheet,
-  NavigatorIOS,
+  Navigator,
 } = React;
 
 var SoundDrop = React.createClass({
   render: function() {
     return (
-      <NavigatorIOS
-        style={styles.container}
-        initialRoute={{
-          title: 'SoundDrop',
-          component: Main,
-        }}/>
-    );    
+      <Navigator
+        initialRoute={{ id: 'welcome'}}
+        renderScene={this.navigatorRenderScene} />
+    );
+  },
+  navigatorRenderScene: function(route, navigator) {
+    switch (route.id) {
+      case 'welcome':
+        return (<Main navigator={navigator}/>);
+      case 'home':
+        return (<Home navigator={navigator}/>);
+    }
   }
 });
 

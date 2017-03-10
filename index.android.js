@@ -1,5 +1,6 @@
 var React = require('react-native');
 var Main = require('SoundDrop/app/components/main');
+var Home = require('SoundDrop/app/components/home');
 
 window.React = React;
 
@@ -22,6 +23,8 @@ var SoundDrop = React.createClass({
 		switch (route.id) {
       case 'welcome':
         return (<Main navigator={navigator}/>);
+	  case 'home':
+        return (<Home navigator={navigator}/>);
     }
 	}
 });
