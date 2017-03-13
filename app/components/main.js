@@ -35,21 +35,6 @@ var styles = StyleSheet.create({
 
 
 class Main extends React.Component {
-  constructor(){
-    super();
-    //binding functions of the component
-    this.navigate = this.navigate.bind(this);
-  }
-  /*
-	function: navigate
-	parameters: id
-	comment: calling this function navigates to the view with the id which is given as the parameter.
-  */
-  navigate(id){
-    this.props.navigator.push({
-      id:id
-    });
-  }
   render() {
     return (
     <View style={styles.container}>
@@ -58,7 +43,7 @@ class Main extends React.Component {
       <Text style={styles.welcome}>
         Welcome to SoundDrop!
       </Text>
-      <TouchableHighlight style={styles.button} underlayColor="grey" onPress={()=>this.navigate('home')}>
+      <TouchableHighlight style={styles.button} underlayColor="grey" onPress={()=>this.props.navigator.push({id:'home'})}>
         <Text>
           View Drops
         </Text>
