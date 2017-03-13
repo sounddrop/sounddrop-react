@@ -37,11 +37,17 @@ var styles = StyleSheet.create({
 class Main extends React.Component {
   constructor(){
     super();
+    //binding functions of the component
     this.navigate = this.navigate.bind(this);
   }
-  navigate(name){
+  /*
+	function: navigate
+	parameters: id
+	comment: calling this function navigates to the view with the id which is given as the parameter.
+  */
+  navigate(id){
     this.props.navigator.push({
-      id:name
+      id:id
     });
   }
   render() {

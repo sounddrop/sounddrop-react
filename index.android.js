@@ -21,11 +21,11 @@ var SoundDrop = React.createClass({
   },
   navigatorRenderScene: function(route, navigator) {
 		switch (route.id) {
-      case 'welcome':
-        return (<Main navigator={navigator}/>);
-	  case 'home':
-        return (<Home navigator={navigator}/>);
-    }
+		  case 'welcome':
+			   return (<Main navigator={navigator}/>);
+		  case 'home':
+			   return (<Home navigator={navigator}/>);
+		}
 	}
 });
 
